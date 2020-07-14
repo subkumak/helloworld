@@ -13,8 +13,8 @@ public class HelloWorld {
 
                 Date dateobj = new Date();
 
-                System.out.println(df.format(dateobj));
-                System.out.println("\n Hello World ");
+               // System.out.println(df.format(dateobj));
+                System.out.println("\n Hello World, Today Date:  "+ df.format(dateobj));
 
 
 	}
